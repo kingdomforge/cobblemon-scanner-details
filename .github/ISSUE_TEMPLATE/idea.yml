@@ -1,0 +1,11 @@
+name: Idea
+description: Share an idea for Cobblemon Scanner Details.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like the scanner to show or do?
+    validations:
+      required: true

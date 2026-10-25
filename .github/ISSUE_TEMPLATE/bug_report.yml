@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in Cobblemon Scanner Details is wrong or crashes.
+labels: ["bug"]
+body:
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft version
+      placeholder: "1.21.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Fabric or NeoForge
+      options:
+        - Fabric
+        - NeoForge
+    validations:
+      required: true
+  - type: input
+    id: cobblemon
+    attributes:
+      label: Cobblemon version
+      placeholder: "1.8.2"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot-or-log
+    attributes:
+      label: A screenshot or log
+      description: Drag a screenshot in here, or paste your log (logs/latest.log) or crash report (crash-reports folder).
+    validations:
+      required: false
