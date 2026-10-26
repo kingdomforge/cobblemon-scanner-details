@@ -5,7 +5,7 @@ forms, color patterns, colored type names and a level color that compares with y
 
 Minecraft 1.21.1, Cobblemon 1.8.1 and 1.8.2, Fabric or NeoForge.
 
-- CurseForge: the link is added here when the page is public.
+- CurseForge: https://www.curseforge.com/minecraft/mc-mods/cobblemon-scanner-details
 
 ## Bugs and ideas
 
